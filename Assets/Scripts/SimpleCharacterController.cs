@@ -11,7 +11,10 @@ public class SimpleCharacterController : MonoBehaviour
     public float jumpForce = 8f;
     public float gravity = -9.81f;
     public bool isGrounded = false;
+    public float maxHealth = 1f;
+    public float currentHealth;
 
+    public HealthBar healthbar;
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -23,6 +26,9 @@ public class SimpleCharacterController : MonoBehaviour
         //Cache references to components
         controller = GetComponent<CharacterController>();
         thisTransform = transform;
+
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
     }
 
 
@@ -75,6 +81,27 @@ public class SimpleCharacterController : MonoBehaviour
         Vector3 currentPosition = thisTransform.position;
         currentPosition.z = 0f;
         thisTransform.position = currentPosition;
+    }
+
+
+    private void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+
+        healthbar.SetHealth(currentHealth);
+
+        Debug.Log("test3 " + currentHealth);
+    }
+
+    public void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log("test");
+        
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            TakeDamage(.1f);
+            Debug.Log("test2");
+        }
     }
 }
 

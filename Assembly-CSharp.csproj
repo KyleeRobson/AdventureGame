@@ -130,6 +130,7 @@
     <Compile Include="Assets\Tools\UI\ImageBehaviour.cs" />
     <Compile Include="Assets\Tools\Animation\AnimStatesBehaviour.cs" />
     <Compile Include="Assets\Tools\Sprites\SpriteRendererBehaviour.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\TransforController.cs" />
     <Compile Include="Assets\Tools\Character\Scripts\CharacterPatterns\CharacterBehaviour.cs" />
     <Compile Include="Assets\Tools\InputSystem\TouchBehaviour.cs" />
