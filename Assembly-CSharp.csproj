@@ -101,6 +101,7 @@
     <Compile Include="Assets\Tools\Vector3Data\Vector3DataCollection.cs" />
     <Compile Include="Assets\Tools\Pooling\RigidBodyPoolBehaviour.cs" />
     <Compile Include="Assets\Tools\RigidBodiesAndColliders\ApplyRigidbodyForce.cs" />
+    <Compile Include="Assets\Scripts\ManaBar.cs" />
     <Compile Include="Assets\Tools\Collection\Collection.cs" />
     <Compile Include="Assets\Tools\Pooling\AutoTransformPoolingBehaviour.cs" />
     <Compile Include="Assets\Tools\Utilities\Parenting\AttachToParent.cs" />

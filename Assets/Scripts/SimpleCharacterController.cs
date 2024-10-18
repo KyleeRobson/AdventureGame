@@ -16,6 +16,11 @@ public class SimpleCharacterController : MonoBehaviour
 
     public HealthBar healthbar;
 
+    public float maxMana = 1f;
+    public float currentMana;
+
+    public ManaBar manaBar=new ManaBar();
+
     private CharacterController controller;
     private Vector3 velocity;
     private Transform thisTransform;
@@ -29,16 +34,28 @@ public class SimpleCharacterController : MonoBehaviour
 
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+
+        currentMana = maxMana;
+        manaBar.SetMaxMana(maxMana);
     }
 
 
     private void Update()
     {
+        CharacterAction();
         MoveCharacter();
         ApplyGravity();
         KeepCharacterOnXAxis();
     }
 
+    private void CharacterAction()
+    {
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            SpendMana(.1f);
+            Debug.Log("test");
+        }
+    }
     private void MoveCharacter()
     {
         //Horizontal Movement
@@ -89,19 +106,22 @@ public class SimpleCharacterController : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
-
-        Debug.Log("test3 " + currentHealth);
     }
 
     public void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("test");
         
         if (collision.gameObject.CompareTag("enemy"))
         {
             TakeDamage(.1f);
-            Debug.Log("test2");
         }
+    }
+
+    public void SpendMana(float ManaSpent)
+    {
+        currentMana -= ManaSpent;
+
+        manaBar.SetMana(currentMana);
     }
 }
 
