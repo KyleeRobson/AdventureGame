@@ -17593,8 +17593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
-  m_SizeDelta: {x: 0.000032425, y: 0}
+  m_AnchoredPosition: {x: 12.7365, y: 2.9051}
+  m_SizeDelta: {x: 25.473, y: 5.8103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &388692164
 MonoBehaviour:
@@ -17668,8 +17668,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86.7, y: -12.4}
-  m_SizeDelta: {x: 150.6583, y: 150.6583}
+  m_AnchoredPosition: {x: -33.3, y: -4.7}
+  m_SizeDelta: {x: 89.3731, y: 89.3731}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &489659532
 MonoBehaviour:
@@ -17835,8 +17835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -12.4}
-  m_SizeDelta: {x: 510.638, y: 149.7628}
+  m_AnchoredPosition: {x: 12.737, y: -4.7}
+  m_SizeDelta: {x: 283.7135, y: 85.5933}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109687854
 MonoBehaviour:
@@ -18349,7 +18349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506437874}
   - component: {fileID: 1506437876}
-  - component: {fileID: 1506437875}
+  - component: {fileID: 1506437877}
   m_Layer: 0
   m_Name: Mana
   m_TagString: Untagged
@@ -18376,22 +18376,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148, y: -108}
-  m_SizeDelta: {x: 176.898, y: 35.4187}
+  m_AnchoredPosition: {x: 90.8, y: -104.8}
+  m_SizeDelta: {x: 67.7149, y: 15.4455}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1506437875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506437873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2fd5be6dcf17f8429c12e4d8a1b0dd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1506437876}
 --- !u!114 &1506437876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18443,6 +18430,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1506437877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506437873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84552b27bb9c8c543be22fd9d6d66157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1506437876}
 --- !u!1 &1591256482
 GameObject:
   m_ObjectHideFlags: 0
@@ -18995,7 +18995,7 @@ MonoBehaviour:
   healthbar: {fileID: 1591256484}
   maxMana: 1
   currentMana: 0
-  manaBar: {fileID: 0}
+  manaBar: {fileID: 1506437877}
 --- !u!65 &2109397774
 BoxCollider:
   m_ObjectHideFlags: 0
