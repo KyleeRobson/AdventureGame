@@ -127,6 +127,7 @@
     <Compile Include="Assets\Tools\Collection\Collectable.cs" />
     <Compile Include="Assets\Tools\InputSystem\RigidBodyWithTouch.cs" />
     <Compile Include="Assets\Tools\Vector3Data\TransformToVector3Behaviour.cs" />
+    <Compile Include="Assets\Scripts\SoundTrigger.cs" />
     <Compile Include="Assets\Tools\AI\Scripts\Simple\AgentBehaviour.cs" />
     <Compile Include="Assets\Tools\UI\TextMeshProBehaviour.cs" />
     <Compile Include="Assets\Tools\UI\ImageBehaviour.cs" />
