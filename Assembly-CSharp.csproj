@@ -186,6 +186,7 @@
     <Compile Include="Assets\Tools\SingleVariables\StringList.cs" />
     <Compile Include="Assets\Tools\Store\Scripts\InventoryData.cs" />
     <Compile Include="Assets\Tools\InputSystem\TouchSwipeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TriggerParticleEffect.cs" />
     <Compile Include="Assets\Scenes\Unit 1\TransformController.cs" />
     <Compile Include="Assets\Tools\Systems\FloatMathSystem.cs" />
     <Compile Include="Assets\Tools\Experimental\ScriptableObjects.cs" />
