@@ -127,6 +127,7 @@
     <Compile Include="Assets\Tools\Collection\Collectable.cs" />
     <Compile Include="Assets\Tools\InputSystem\RigidBodyWithTouch.cs" />
     <Compile Include="Assets\Tools\Vector3Data\TransformToVector3Behaviour.cs" />
+    <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\SoundTrigger.cs" />
     <Compile Include="Assets\Tools\AI\Scripts\Simple\AgentBehaviour.cs" />
     <Compile Include="Assets\Tools\UI\TextMeshProBehaviour.cs" />
@@ -150,6 +151,7 @@
     <Compile Include="Assets\Tools\AI\Scripts\Advanced\AiHunt2D.cs" />
     <Compile Include="Assets\Tools\DestroyDisable\DestoryOnTrigger.cs" />
     <Compile Include="Assets\Tools\InputSystem\GameInputs.cs" />
+    <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Tools\Vector3Data\Vector3Data.cs" />
     <Compile Include="Assets\Tools\DestroyDisable\DestroyOtherObjectBehaviour.cs" />
     <Compile Include="Assets\Tools\Bahaviours\SceneIsLoadedRunAnimation.cs" />
