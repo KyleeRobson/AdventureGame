@@ -10,7 +10,7 @@ public class SimpleCharacterController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
     public float gravity = -9.81f;
-    //public bool isGrounded = false;
+    public bool isGrounded = false;
     public float maxHealth = 1f;
     public float currentHealth;
 
@@ -65,7 +65,7 @@ public class SimpleCharacterController : MonoBehaviour
 
 
         //Jumping
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        if (Input.GetButtonDown("Jump")) //&& controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt(f: jumpForce * -2f * gravity);
         }
