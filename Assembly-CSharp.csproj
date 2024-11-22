@@ -67,6 +67,7 @@
     <Compile Include="Assets\Tools\Store\Scripts\Store.cs" />
     <Compile Include="Assets\Scripts\SimpleIntData.cs" />
     <Compile Include="Assets\Tools\Character\Scripts\Animation\AnimsBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SimpleIDBehaviour.cs" />
     <Compile Include="Assets\Tools\ActionsEvents\GameAction.cs" />
     <Compile Include="Assets\Tools\Character\Scripts\CharacterPatterns\CharacterMoveAndRotate3d.cs" />
     <Compile Include="Assets\Tools\Bahaviours\MonoEventBehaviours.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Tools\Toggling\ToggleEvent.cs" />
     <Compile Include="Assets\Tools\Interfaces\Interfaces.cs" />
     <Compile Include="Assets\Tools\AI\Scripts\Simple\AgentBehaviourPlus.cs" />
+    <Compile Include="Assets\Scripts\Id.cs" />
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
     <Compile Include="Assets\Tools\DataStorage\DataStorage.cs" />
     <Compile Include="Assets\Tools\DestroyDisable\Destroyer.cs" />
@@ -112,6 +114,7 @@
     <Compile Include="Assets\Tools\Character\Scripts\Experimental\AnimateCharacter.cs" />
     <Compile Include="Assets\Tools\Store\Scripts\InventoryUIButtonBehaviour.cs" />
     <Compile Include="Assets\Tools\SingleVariables\IntData.cs" />
+    <Compile Include="Assets\Scripts\SimpleIDMatchBehaviour.cs" />
     <Compile Include="Assets\Tools\Matching\NameID.cs" />
     <Compile Include="Assets\Tools\SingleVariables\ColorData.cs" />
     <Compile Include="Assets\Tools\Coroutines\SimpleCoroutineBehaviour.cs" />
@@ -161,6 +164,7 @@
     <Compile Include="Assets\Tools\Systems\WorkSystem.cs" />
     <Compile Include="Assets\Tools\Debugging\Debugger.cs" />
     <Compile Include="Assets\Tools\Utilities\Instancing\InstancingBehaviour.cs" />
+    <Compile Include="Assets\Scripts\AttachOnTrigger.cs" />
     <Compile Include="Assets\Tools\Utilities\SceneManagment\SceneManagement.cs" />
     <Compile Include="Assets\Tools\SingleVariables\FloatAxis.cs" />
     <Compile Include="Assets\Tools\Utilities\Cameras\CameraUtility.cs" />
