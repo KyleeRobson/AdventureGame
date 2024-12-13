@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class SimpleCharacterController : MonoBehaviour
@@ -46,8 +47,10 @@ public class SimpleCharacterController : MonoBehaviour
         MoveCharacter();
         ApplyGravity();
         KeepCharacterOnXAxis();
+        QuitGame();
     }
 
+ 
     private void CharacterAction()
     {
         if(Input.GetKeyDown(KeyCode.M))
@@ -122,6 +125,14 @@ public class SimpleCharacterController : MonoBehaviour
         currentMana -= ManaSpent;
 
         manaBar.SetMana(currentMana);
+    }
+
+    public void QuitGame()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
 

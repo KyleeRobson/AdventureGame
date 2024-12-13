@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/New Scenes/TitleScreen.unity
+    guid: 4c87111521cbcd74ca867f969d3660e5
+  - enabled: 1
+    path: Assets/WeirdSave.unity
+    guid: fec6b4776712f764089e81274c5b0a65
   m_configObjects: {}

@@ -142,6 +142,7 @@
     <Compile Include="Assets\Scripts\TransforController.cs" />
     <Compile Include="Assets\Tools\Character\Scripts\CharacterPatterns\CharacterBehaviour.cs" />
     <Compile Include="Assets\Tools\InputSystem\TouchBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ButtonFunction.cs" />
     <Compile Include="Assets\Tools\Utilities\Layers\LayerContoller.cs" />
     <Compile Include="Assets\Tools\DestroyDisable\DisableOrDestroyBehaviour.cs" />
     <Compile Include="Assets\Tools\Triggers\TriggerEventsBehaviour.cs" />
